@@ -5,7 +5,19 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <h1>Sign Up</h1>
+    <form action="" method="POST">
+      <label for="firstname">First Name</label>
+      <input name="firstname" placeholder="First Name" type="text" />
+      <label for="lastname">Last Name</label>
+      <input name="lastname" placeholder="Last Name" type="text" />
+      <label for="email">Email</label>
+      <input name="email" placeholder="Email" type="email" />
+      <label for="password">Password</label>
+      <input name="password" type="password" />
+      <label for="password-confirmation">Confirm password</label>
+      <input name="password-confirmation" type="password" />
+      <button>Sign Up</button>
+    </form>
   </body>
 </html>
